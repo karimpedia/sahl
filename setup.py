@@ -21,4 +21,4 @@ setup_options = dict(name='sahl',
                                      "docs": []})
 
 if __name__ == '__main__':
-    setup(**setup_options)
+    setup(**setup_options, install_requires=['pandas', 'tensorflow'])

@@ -1,0 +1,4 @@
+
+-) exp|tf_001: SoftMax Regression on MNIST data using TensorFlow ... reach ~ 92% of test accuracy.
+
+
