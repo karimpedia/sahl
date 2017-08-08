@@ -24,3 +24,7 @@
     * MAYBE: you should open a `tensorboard` on that log directory to read it.
   * Saves checkpoints (but does not save training summary)
   * Reaches ~_98.1%_ of evaluation accuracy.
+
+* ~~`exp.tf_005`~~:
+  * The `tensorflow.contrib.learn` tutorial on IRIS dataset
+  * DOES NOT WORK !!!
