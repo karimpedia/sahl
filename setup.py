@@ -15,10 +15,13 @@ setup_options = dict(name='sahl',
                      author='Karim Pedia',
                      author_email='karim.pedia@gmail.com',
                      packages=['sahl'],
-                     install_requires=[],
+                     install_requires=['pandas',
+                                       'tensorflow',
+                                       'click',
+                                       'numpy'],
                      extras_require={'visualize': [],
                                      'tests': [],
                                      "docs": []})
 
 if __name__ == '__main__':
-    setup(**setup_options, install_requires=['pandas', 'tensorflow'])
+    setup(**setup_options)
